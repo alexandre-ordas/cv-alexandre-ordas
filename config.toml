@@ -1,0 +1,261 @@
+# Page settings
+
+baseURL = "https://example.org/"
+languageCode = "fr"
+title = "CV Alexandre Ordas 2022"
+
+
+
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#694f9b"
+    textPrimaryColor = "#292929"
+
+
+
+
+    [params.profile]
+        enable = true
+        name = "Alexandre Ordas"
+        tagline = "En recherche d'une alternance en apprentissage niveau bac+5 sur 2 ans"
+        avatar = "avatar1.png"
+
+
+
+
+
+
+
+    [params.contact]
+        enable = true
+        location = "Toulouse, France"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone"
+        url = "tel:#"
+        text = "+33 (0) 6 47 65 67 84"
+        [[params.contact.list]]
+        icon = "fas fa-envelope"
+        url = "mailto:#"
+        text = "alexandre.ordas@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-car"
+        text = "Permi B - Véhiculé"
+        [[params.contact.list]]
+        icon = "fas fa-birthday-cake"
+        text = "28 ans"
+
+
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technologies"
+        [[params.skills.list.items]]
+        details = "JavaScript/ReactJs/React Native/Redux"
+        [[params.skills.list.items]]
+        details = "PHP 7/POO/MVC/Symfony 4"
+        [[params.skills.list.items]]
+        details = "SQL/MySQL"
+        [[params.skills.list.items]]
+        details = "HTML5/CSS3/Bootstrap"
+        [[params.skills.list.items]]
+        details = "UI/UX"
+        [[params.skills.list.items]]
+        details = "GIT"
+        [[params.skills.list.items]]
+        details = "SCRUM/AGILE"
+
+        [[params.skills.list]]
+        title = "Suite Adobe"
+        [[params.skills.list.items]]
+        details = "Photoshop"
+        [[params.skills.list.items]]
+        details = "Illustrator"
+        [[params.skills.list.items]]
+        details = "Adobe XD"
+
+        [[params.skills.list]]
+        title = "Qualité"
+        [[params.skills.list.items]]
+        details = "Optimiste"
+        [[params.skills.list.items]]
+        details = "Goût du challenge"
+        [[params.skills.list.items]]
+        details = "Détérminé"
+        [[params.skills.list.items]]
+        details = "Persévérant"
+        [[params.skills.list.items]]
+        details = "Travail en équipe"
+
+
+
+
+
+
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Titre Professionnel Concepteur et développeur d'application (Bac+3) "
+        university = "AP Formation - Toulouse"
+        dates = "2020 - 2022"
+        [[params.education.list]]
+        degree = "Titre Professionnel Designer Web (Bac+2)"
+        university = "BGE Formation"
+        dates = "2019 - 2020"
+        [[params.education.list]]
+        degree = "Master Tourisme et Hôtellerie (Bac+5)"
+        university = "ISTHIA - Toulouse"
+        dates = "2015 - 2018"
+
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Courant"
+
+
+    [params.summary]
+        enable = true
+        text = "Après avoir travaillé 6 ans dans le domaine de l'Hôtellerie j'ai choisi de m'orienter dans l'univers de l'informatique en 2019. Lors de ma formation de Designer Web j'ai constaté que l'univers du développement me correspondait. J'ai décidé de poursuivre sur une alternance en tant que Concepteur et Développeur d'Applications. Ces 18 mois en entreprise m'ont permis de confirmé ce choix de réorientation. Aujourd'hui, je recherche une alternance pour un bac+5 pour obtenir davantage de connaissances, de compétences et perfectionner mon profil de développeur."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Développeur Web - Start-up"
+        dates = "Fevrier 2020 - Septembre 2021"
+        company = "affy - Toulouse"
+        details = "Concevoir l'intégralité d'un site e-commerce sur Symfony (site disponible sur mon github)"
+        [[params.experience.list.items]]
+        details = "Mettre en place un cahier des charges."
+        [[params.experience.list.items]]
+        details = "Créer la base de données relationnelles (MySQL)."
+        [[params.experience.list.items]]
+        details = "Intéragir avec la base de données par l'ORM Doctrine."
+        [[params.experience.list.items]]
+        details = "Établir l'interface utilisateur avec Twig."
+        [[params.experience.list.items]]
+        details = "Utiliser Bootstrap pour le CSS."
+        [[params.experience.list.items]]
+        details = "Assurer la sécurité des utilisateurs sur le site."
+        [[params.experience.list.items]]
+        details = "Mettre en place des tests unitaires."
+        [[params.experience.list.items]]
+        details = "Réaliser des maquettes responsive en utilisant l'UI et l'UX."
+
+        [[params.experience.list]]
+        title = "Designer web - Agence web"
+        dates = "Mai - Août 2019"
+        company = "ASA Design - Launaguet"
+        [[params.experience.list.items]]
+        details = "Consevoir des maquettes pour le web."
+        [[params.experience.list.items]]
+        details = "Produire des visuels pour l'impression."
+        [[params.experience.list.items]]
+        details = "Réaliser l'interface utilisateur d'un site internet avec l'UX et l'UI."
+        [[params.experience.list.items]]
+        details = "Établir le référencement de site web."
+
+
+        [[params.experience.list]]
+        title = "Agent événementiel sportif"
+        dates = "2017 - 2018"
+        company = "Cours Nicholas - Toulouse"
+        details = "Assurer la réalisation des évènements du club. Organisation des démonstrations et des compétitions. Gestion des réseaux sociaux."
+
+        [[params.experience.list]]
+        title = "Assisant communication"
+        dates = "Mars - Août 2017 "
+        company = "NT Hotel Gallery - Toulouse"
+        details = "Assurer les différents canaux de communication du groupe par les réseaux sociaux, la presse locale et la presse spécialisée."
+
+        [[params.experience.list]]
+        title = "Commercial"
+        dates = "Avril - Août 2016"
+        company = "OceanDusk - Londres"
+        details = "Assurer la vente de séjours sur la partie Europe du marché auprès de la clientèle du Moyen-Orient"
+
+
+
+
+
+
+
+
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Extra service | 2019 - 2022"
+        dates = "2018 - 2022"
+        meta = "Casino Barrière - Toulouse"
+        tagline = "Réalisation du service lors des dîners spectacles. Équipe de 6 à 20 personnes "
+
+        [[params.projects.list]]
+        title = "Nageur Sauveteur | 2013 - 2015"
+        meta = "SNSM"
+        tagline = "Assurer la surveillance sur les plages et les premiers soins quand nécessaire"
+
+
+
+
+
+
+
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = "Danses sportives"
+        [[params.information.list.items]]
+        details = "Compétiteur dans cette discipline depuis 2015"
+        [[params.information.list.items]]
+        details = "Sélectionné au Championnat de France 2021 et 2022"
+        [[params.information.list.items]]
+        details = "Professeur de danse de salon (100 élèves)"
+
+        [[params.information.list]]
+        title = "Natation"
+        [[params.information.list.items]]
+        details = "Nageur pendant 15 ans"
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/alexandre-ordas"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/alexandre-ordas"
+
+
+
+
+
